@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+  height: 4rem;
+  color: white !important;
+  background: tomato;
+  
+}
+.header>h1{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  color: white !important;
+}
+
+.view-button{
+  position: absolute;
+  bottom: 5rem;
+  width: 15rem;
+  left: 20%;
+}
